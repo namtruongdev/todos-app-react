@@ -170,7 +170,7 @@ class App extends Component {
             <ul className="filters">
               <li>
                 <a
-                  href="#"
+                  href="/#"
                   className={classNames({ selected: all })}
                   onClick={this.onFilterClick}
                 >

@@ -5,9 +5,6 @@ import uncheck from '../img/circle.svg';
 import checked from '../img/checked.svg';
 
 class TodoItems extends Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     const { item, onClick, onDestroyClick } = this.props;
     let url = uncheck;
